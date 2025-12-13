@@ -1,1 +1,1 @@
-Sitemap: https://byuidatascience.github.io/datascience_portfolio/sitemap.xml
+Sitemap: https://HowaJosh.github.io/Josh-Howard.github.io/sitemap.xml
