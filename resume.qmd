@@ -1,89 +1,86 @@
+
+
+"
 ---
-layout: cv
-title: Isaac Newtons's CV
+Resume
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+# Joshua Howard
 
+## Contact Information
 
-## Currently
+- **Phone:** (208) 371‑5641  
+- **Email:** [HowaJosh2000@gmail.com](mailto:HowaJosh2000@gmail.com)  
+- **Location:** 397 Thomson Farms Rd Apt 3306
 
-Standing on the shoulders of giants
+## Experience
 
-### Specialized in
+### Member Service Representative, Beehive Federal Credit Union *(June 2023 – Present)*
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+- Maintain accurate financial records for member accounts, including new account setup, data updates and status changes.
+- Ensure strict confidentiality when handling member information in accordance with BSA regulations.
+- Support internal audits by compiling and organising account documentation for management and compliance teams.
+- Demonstrate strong organisational and analytical skills in balancing member account data and resolving inconsistencies.
 
+### Framer / General Builder, Black Creek Builders *(June 2016 – Dec 2022)*
 
-### Research interests
+- Interpret blueprints and project specifications to ensure materials and measurements align precisely with design constraints.
+- Prioritise safety and compliance with building codes and workplace regulations, aligning with accounting’s emphasis on controls and regulatory adherence.
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+### Missionary Service, Church of Jesus Christ of Latter‑Day Saints *(Jun 2019 – Jun 2021)*
 
+- Completed full–time missionary service in El Salvador and Minneapolis, Minnesota, developing strong interpersonal, organisational and leadership skills across culturally diverse regions.
+- Managed schedules, tracked personal and team goals and maintained daily records with consistency and accuracy.
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+### Brigham Young University–Idaho, Rexburg *(Jan 2022 – Present)*
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+- **Bachelor of Science in Accounting**  
+- **Minor:** Engineering  
+- **Tools:** Excel, Outlook and AutoCAD  
+- **Courses:** Pivot tables and basic accounting courses
 
-- Sizar
+## Certifications
 
-`1667 - death`
-__Trinity College, Cambridge__
+- **CSWP** — Professional certification in SolidWorks
 
-- Fellow
+## Languages
 
+- **Spanish** — Proficient in speaking, reading and writing
 
+## Skills
 
-## Awards
+- General ledger knowledge
+- Basic SQL
+- Transaction processing
+- Critical thinking
+- Conflict resolution
+- Microsoft Excel
+- Microsoft Power BI
 
-`2012`
-President, *Royal Society*, London, UK
+---
+title: "Projects"
+---
 
-Associate, *French Academy of Science*, Paris, France
+# Projects
 
+This section will house my data science and analytics projects. Over the coming months I'll populate this page with exploratory data analyses, predictive models, dashboards and other original work. For now, here are a few ideas I'm exploring:
 
+- **Financial dashboard:** an interactive tool for visualising key performance metrics for a credit union.
+- **Fraud detection model:** using classification algorithms to identify anomalous transactions.
+- **Sales forecasting:** employing time‑series analysis to predict future revenue trends.
 
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+Feel free to check back later or reach out on [LinkedIn]({https://www.linkedin.com/in/joshua-howard-6883299a/}) 
 
 
-## Occupation
+def write_blog_page(root: Path) -> None:
+    """Create a placeholder blog page."""
+    blog_content = """
+---
+title: "Blog"
+---
 
-`1600`
-__Royal Mint__, London
+# Blog
 
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+Occasionally I write about accounting concepts, data visualisation and machine learning experiments. Future posts may include tutorials, reflections on coursework and insights gleaned from my projects. Stay tuned!

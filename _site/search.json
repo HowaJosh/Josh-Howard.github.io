@@ -2,7 +2,7 @@
   {
     "objectID": "competition.html",
     "href": "competition.html",
-    "title": "about me",
+    "title": "Joshua Howard",
     "section": "",
     "text": "MarkDown Basics",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "competition.html#title-2-header",
     "href": "competition.html#title-2-header",
-    "title": "about me",
+    "title": "Joshua Howard",
     "section": "",
     "text": "MarkDown Basics",
     "crumbs": [
@@ -275,9 +275,9 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "Isaac Newtons’s CV",
+    "title": "Projects",
     "section": "",
-    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+    "text": "import os from pathlib import Path import shutil"
   },
   {
     "objectID": "resume.html#currently",
@@ -289,9 +289,9 @@
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
+    "title": "Projects",
+    "section": "Education",
+    "text": "Education\n\nBrigham Young University–Idaho, Rexburg (Jan 2022 – Present)\n\nBachelor of Science in Accounting\n\nMinor: Engineering\n\nTools: Excel, Outlook and AutoCAD\n\nCourses: Pivot tables and basic accounting courses"
   },
   {
     "objectID": "resume.html#awards",
@@ -484,5 +484,68 @@
     "crumbs": [
       "Full Stack"
     ]
+  },
+  {
+    "objectID": "resume.html#highlights",
+    "href": "resume.html#highlights",
+    "title": "Blog",
+    "section": "Highlights",
+    "text": "Highlights\n\nMember Service Representative, Beehive Federal Credit Union — Maintained accurate financial records for member accounts, ensured confidentiality and supported internal audits (June 2023 – present).\nFramer / General Builder, Black Creek Builders — Interpreted blueprints, aligned materials to specifications and prioritised safety and compliance (June 2016 – Dec 2022).\nMissionary Service — Served in El Salvador & Minneapolis, developing cross–cultural communication and leadership skills (June 2019 – June 2021)."
+  },
+  {
+    "objectID": "resume.html#what-im-working-on",
+    "href": "resume.html#what-im-working-on",
+    "title": "Blog",
+    "section": "What I’m working on",
+    "text": "What I’m working on\nI’m currently expanding my skillset by applying statistical analysis and machine learning to financial datasets. Future posts on this blog will showcase data visualisations, predictive models and the occasional deep dive into accounting topics viewed through a data–science lens.\n{{fig-align=“center” width=“100%”}} “““.format(name=cfg[‘name’], tagline=cfg[‘tagline’]) with open(root /”index.qmd”, “w”, encoding=“utf-8”) as f: f.write(content.strip() + “”)\ndef write_resume_page(root: Path) -&gt; None: “““Create the resume page with structured sections.”“” resume_content = r”“” — title: “Resume” —"
+  },
+  {
+    "objectID": "resume.html#contact-information",
+    "href": "resume.html#contact-information",
+    "title": "Projects",
+    "section": "Contact Information",
+    "text": "Contact Information\n\nPhone: (208) 371‑5641\n\nEmail: HowaJosh2000@gmail.com\n\nLocation: 397 Thomson Farms Rd Apt 3306"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Projects",
+    "section": "Experience",
+    "text": "Experience\n\nMember Service Representative, Beehive Federal Credit Union (June 2023 – Present)\n\nMaintain accurate financial records for member accounts, including new account setup, data updates and status changes.\nEnsure strict confidentiality when handling member information in accordance with BSA regulations.\nSupport internal audits by compiling and organising account documentation for management and compliance teams.\nDemonstrate strong organisational and analytical skills in balancing member account data and resolving inconsistencies.\n\n\n\nFramer / General Builder, Black Creek Builders (June 2016 – Dec 2022)\n\nInterpret blueprints and project specifications to ensure materials and measurements align precisely with design constraints.\nPrioritise safety and compliance with building codes and workplace regulations, aligning with accounting’s emphasis on controls and regulatory adherence.\n\n\n\nMissionary Service, Church of Jesus Christ of Latter‑Day Saints (Jun 2019 – Jun 2021)\n\nCompleted full–time missionary service in El Salvador and Minneapolis, Minnesota, developing strong interpersonal, organisational and leadership skills across culturally diverse regions.\nManaged schedules, tracked personal and team goals and maintained daily records with consistency and accuracy."
+  },
+  {
+    "objectID": "resume.html#certifications",
+    "href": "resume.html#certifications",
+    "title": "Projects",
+    "section": "Certifications",
+    "text": "Certifications\n\nCSWP — Professional certification in SolidWorks"
+  },
+  {
+    "objectID": "resume.html#languages",
+    "href": "resume.html#languages",
+    "title": "Projects",
+    "section": "Languages",
+    "text": "Languages\n\nSpanish — Proficient in speaking, reading and writing"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Projects",
+    "section": "Skills",
+    "text": "Skills\n\nGeneral ledger knowledge\nBasic SQL\nTransaction processing\nCritical thinking\nConflict resolution\nMicrosoft Excel\nMicrosoft Power BI"
+  },
+  {
+    "objectID": "resume.html#section",
+    "href": "resume.html#section",
+    "title": "Projects",
+    "section": "”",
+    "text": "”"
+  },
+  {
+    "objectID": "resume.html#title-resume",
+    "href": "resume.html#title-resume",
+    "title": "Projects",
+    "section": "title: “Resume”",
+    "text": "title: “Resume”"
   }
 ]
