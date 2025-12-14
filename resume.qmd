@@ -1,9 +1,10 @@
 
 
-"
+
 ---
-Resume
+title: "Resume"
 ---
+
 
 # Joshua Howard
 
@@ -74,9 +75,6 @@ This section will house my data science and analytics projects. Over the coming 
 Feel free to check back later or reach out on [LinkedIn]({https://www.linkedin.com/in/joshua-howard-6883299a/}) 
 
 
-def write_blog_page(root: Path) -> None:
-    """Create a placeholder blog page."""
-    blog_content = """
 ---
 title: "Blog"
 ---
